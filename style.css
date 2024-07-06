@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+#cabecalho{
+    width: 100%;
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px) { /* celular e tablet */
+    .div_icone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+    #icone_menu{
+        filter: invert(43%) sepia(88%) saturate(368%) hue-rotate(112deg) brightness(91%) contrast(91%);
+        max-width: 50%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-left: 5%;
+    }
+    #icone_zap{
+        max-width: 50%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-right: 5%;
+    }
+    .botao_contato{
+        margin-right: 2%;
+        margin-bottom: 2%;
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        max-width: 70%;
+        border-radius: 13px;
+        border: none;
+        background-color: #33bb47;
+        color: white;
+    }
+    .zap_botao{
+        padding-left: 2%;
+        max-width: 90%;
+    }
+    #imagem_terapia{
+        max-width: 100%;
+        height: auto;
+        background-image: url(/imagens/terapia.jpg);
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    .item_direita{
+        display: flex;
+        justify-content: right;
+    }
+    .texto_imagem{
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: right;
+        padding-top: 12%;
+        padding-right: 2%;
+        max-width: 70%;
+        font-size: 150%;
+        color: white;
+    }
+    #subtexto_imagem{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 2%;
+        max-width: 70%;
+        color: white;
+        font-size: 100%;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: right;
+    }
+    .flexivel{
+        display: flex;
+        align-items: center;
+    }
+    .circulo{
+        max-width: 15%;
+        height: 90%;
+        background-color: white;
+        border-radius: 100%;
+        margin-right: 2%;
+    }
+}
+@media (min-width: 768.01px) { /* notebook e pc */
+    .div_icone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+    #icone_menu{
+        filter: invert(43%) sepia(88%) saturate(368%) hue-rotate(112deg) brightness(91%) contrast(91%);
+        max-width: 40%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-left: 2%;
+    }
+    #icone_zap{
+        max-width: 40%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-right: 2%;
+    }
+    #terapia{
+        max-width: 100%;
+        height: 500px;
+        background-image: url(/imagens/terapia.jpg);
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+}
