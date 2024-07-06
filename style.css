@@ -1,12 +1,12 @@
 body{
     margin: 0;
+    background-color: #f0f0f0; 
 }
 p{
     margin: 0;
 }
 #cabecalho{
     width: 100%;
-    background-color: #f0f0f0; 
     display: flex;
     justify-content: space-between;
 }
@@ -89,6 +89,22 @@ p{
         background-color: white;
         border-radius: 100%;
         margin-right: 2%;
+    }
+    .centraliza_texto{
+        display: flex;
+        justify-content: center;
+    }
+    .texto_terapia{
+        padding-top: 5%;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 18px;
+        width: 62.5%;
+        justify-content: center;
+        text-align:center;
+    }
+    #icone_zap_fixado{
+        width: 15%;
+        position: fixed;
     }
 }
 @media (min-width: 768.01px) { /* notebook e pc */
