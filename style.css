@@ -27,6 +27,7 @@ p{
         padding-left: 5%;
     }
     #icone_zap{
+        z-index: +999;
         max-width: 50%;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -105,6 +106,71 @@ p{
     #icone_zap_fixado{
         width: 15%;
         position: fixed;
+    }
+    .centralizar_div{
+        display: flex;
+        align-items: center; /* alinha verticalmente */
+        justify-content: center; /* alinha horizontalmente */
+    }
+    .centralizada{
+        margin-bottom: 3%;
+        max-width: 60%;
+        text-align: center;
+    }
+    .circulo_centralizado{
+        margin-top: 10%;
+        background-color: rgb(0, 133, 229);
+        border-radius: 50%;
+        max-width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .laptop{
+        filter: invert(100%);
+        padding-bottom: 5%;
+        width: 80%;
+    }
+    .fundo_cinza{
+        margin-top: 5%;
+        background-color: #d8d8d8;
+    }
+    .texto_principal{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .circulo_zap_atendimento{
+        max-width: 15%;
+        height: 90%;
+        background-color: white;
+        border-radius: 100%;
+        margin-right: 2%;
+    }
+    .zap_botao_atendimento{
+        padding-top: 5%;
+        padding-left: 2%;
+        max-width: 90%;
+    }
+    #menu{
+        height: 24.9%;
+        width: 100%;
+        position: absolute;
+        background-color: #dedede;
+        transform: translateY(-101%);
+        transition-duration: 1s;
+    }
+    #abas_menu{
+        padding-left: 6%;
+        font-family: Open Sans;
+        color:#33bb47;
+        margin-top: 15%;
+    }
+    .linha{
+        border-style:solid;
+        width: 100%;
+        border-color: #f0f0f0;
     }
 }
 @media (min-width: 768.01px) { /* notebook e pc */
