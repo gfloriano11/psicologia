@@ -1,5 +1,5 @@
 function Whatsapp(){
-    let numeroZap = "5547992606543"
+    let numeroZap = "5547997936232  "
     let urlZap = "https://wa.me/" + numeroZap
     window.open(urlZap, "_blank")
 };
@@ -11,10 +11,8 @@ menu.style.transform = "translateY(-101%)"
 
 icone.addEventListener("click", function(){
     if (menu.style.transform == "translateY(0%)"){
-        console.log("Tá abrindo")
         menu.style.transform = "translateY(-101%)"
     } else {
-        console.log("Tá fechando")
         menu.style.transform = "translateY(0%)"
     }
 });
