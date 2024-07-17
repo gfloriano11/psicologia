@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/garet');
+@import url('https://fonts.cdnfonts.com/css/merriweather');
+
 body{
     margin: 0;
     background-color: #f0f0f0; 
@@ -68,6 +71,18 @@ p{
         background-color: #33bb47;
         color: white;
     }
+    .botao_contato_embaixo{
+        margin-bottom: 2%;
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        max-width: 70%;
+        border-radius: 13px;
+        border: none;
+        background-color: #33bb47;
+        color: white;
+    }
     .zap_botao{
         padding-left: 2%;
         max-width: 90%;
@@ -124,6 +139,14 @@ p{
         margin-right: 2%;
     }
     .centraliza_texto{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .centraliza_texto_avaliacao{
+        margin-top: 5%;
+        margin-bottom: 6%;
+        text-align: center;
         display: flex;
         justify-content: center;
     }
@@ -141,6 +164,12 @@ p{
         position: fixed;
     }
     .centralizar_div{
+        display: flex;
+        align-items: center; /* alinha verticalmente */
+        justify-content: center; /* alinha horizontalmente */
+    }
+    .centralizar_div_avaliacao{
+        margin-bottom: 5%;
         display: flex;
         align-items: center; /* alinha verticalmente */
         justify-content: center; /* alinha horizontalmente */
@@ -199,6 +228,64 @@ p{
         border-style:solid;
         width: 100%;
         border-color: #f0f0f0;
+    }
+    #rosto{
+        margin-top: 3%;
+        border-radius: 1000px;
+        max-width: 70%;
+    }
+    .div_centralizada{
+        width: 100%;
+        display: flex;
+    }
+    #arruma_nome{
+        margin-top: 20px;
+        max-width: 80%;
+        text-align: center;
+    }
+    #nome{
+        font-size: 40px;
+    }
+    .barra_cor{
+        margin-top: 2%;
+        padding-top: 1%;
+        width: 70%;
+        height: 5%;
+        background-color: #33bb47;
+    }
+    #texto_tipo_tratamento{
+        font-family: garet;
+        margin-top: 5%;
+        font-size: 18px;
+        background-color: #d8d8d8;
+        width: 70%;
+    }
+    .titulo{
+        font-family: merriweather;
+        margin-top: 3%;
+        font-size: 40px;
+    }
+    .avaliacao{
+        max-width: 75%;
+        background-color: #d8d8d8;
+    }
+    .nome_avaliacao{
+        font-family: garet;
+        margin-left: 5%;
+        margin-top: 2%;
+        font-size: 20px;
+    }
+    .data_avaliacao{
+        font-family: garet;
+        margin-left: 5%;
+        margin-top: 2%;
+        font-size: 14px;
+    }
+    .texto_avaliacao{
+        font-family: garet;
+        margin-left: 5%;
+        margin-top: 2%;
+        font-size: 12px;
     }
 }
 @media (min-width: 768.01px) { /* notebook e pc */
