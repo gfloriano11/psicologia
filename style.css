@@ -41,6 +41,7 @@ p{
         font-family: bahttra_signature;
     }
     #icone_zap{
+        cursor: pointer;
         z-index: +999;
         max-width: 70%;
         margin-top: 2%;
@@ -174,7 +175,7 @@ p{
     }
     .centralizada_com_espaco{
         margin-bottom: 10%;
-        max-width: 30%;
+        max-width: 60%;
         text-align: center;
     }
     .circulo_centralizado{
@@ -293,6 +294,7 @@ p{
         font-family: bahttra_signature;
     }
     #icone_zap{
+        cursor: pointer;
         z-index: +999;
         max-width: 50%;
         margin-top: 2%;
@@ -547,6 +549,7 @@ p{
         font-family: bahttra_signature;
     }
     #icone_zap{
+        cursor: pointer;
         z-index: +999;
         max-width: 30%;
         margin-top: 2%;
